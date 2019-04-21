@@ -497,3 +497,23 @@ body {
     color: $main-color;
   }
 }
+//////////////////////////////////////WORK//////////////////////////
+
+#resources-list {
+  .card-height1 {
+    height: 300px;
+    border-color: $main-color;
+
+    .card-img-top {
+      height: 10px;
+    }
+  }
+
+  .card-body {
+    height: 280px;
+  }
+
+  .card-text {
+    height: 80px;
+  }
+}

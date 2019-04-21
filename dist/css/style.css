@@ -354,3 +354,15 @@ body {
 
 #socialmedia i:hover {
   color: #ffbc00; }
+
+#resources-list .card-height1 {
+  height: 300px;
+  border-color: #ffbc00; }
+  #resources-list .card-height1 .card-img-top {
+    height: 10px; }
+
+#resources-list .card-body {
+  height: 280px; }
+
+#resources-list .card-text {
+  height: 80px; }
