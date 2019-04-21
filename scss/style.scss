@@ -517,3 +517,64 @@ body {
     height: 80px;
   }
 }
+
+///////////////////////Contact
+
+#contact {
+  .bottom-line {
+    height: 5px;
+    width: 3rem;
+    background: $main-color;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+
+  &-a {
+    margin-top: 100px;
+  }
+
+  &-b {
+    .contact-info {
+      color: white;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+    }
+  }
+
+  &-c {
+    height: 200px;
+    background: black;
+
+    .container {
+      display: grid;
+      justify-content: center;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #contact {
+    &-c {
+      height: 200px;
+      background: black;
+
+      .container {
+        display: grid;
+        justify-content: center;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+      }
+    }
+  }
+}
