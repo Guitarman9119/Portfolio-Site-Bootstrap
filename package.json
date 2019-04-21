@@ -1,0 +1,16 @@
+{
+  "name": "book-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
+  }
+}
